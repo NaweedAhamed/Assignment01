@@ -1,0 +1,44 @@
+button{
+    border: none;
+    background: none;
+    height: 40px;
+    outline: none;
+    
+}
+
+button:focus-visible{
+    outline: none;
+    
+}
+
+button:hover{
+    background: rgb(197, 177, 177)
+}
+
+input[type="color"]{
+    width: 30px;
+    height: 10px;
+    outline: none;
+    display: flex;
+    box-shadow: none;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+}
+
+
+.toolbar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+
+#Editor{
+    max-width: 800px;
+    height: 200px;
+    margin:20px auto ;
+    border: 1px solid rgb(81, 4, 4);
+    padding: 10PX;  
+}
