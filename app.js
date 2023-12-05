@@ -5,3 +5,7 @@ function bold(){
 function underline(){
     document.execCommand('underline',true,null)
 }
+
+function Italic(){
+    document.execCommand('italic',true,null)
+}
